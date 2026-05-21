@@ -1,0 +1,3906 @@
+[2026-04-23 14:33:42] [WARNING] Connected to alpaca. USD Balance: $1,113.32
+[2026-04-23 14:33:42] [WARNING] 🚀 Bot started - PAPER TRADING
+[2026-04-23 14:33:43] [WARNING] Monitoring: SOL/USD, ETH/USD, LINK/USD, AVAX/USD
+[2026-04-23 14:33:43] [WARNING] Strategies: GRID
+[2026-04-23 14:33:47] [INFO] 📊 GRID SETUP: SOL/USD
+Range: $81.76 - $90.37
+Levels: 10 | Spacing: $0.86 (1.00%)
+Order size: 0.651833 (~$56.10)
+Investment: $280.50
+[2026-04-23 14:33:51] [INFO] 📊 GRID SETUP: ETH/USD
+Range: $2,214.52 - $2,447.62
+Levels: 10 | Spacing: $23.31 (1.00%)
+Order size: 0.020055 (~$46.75)
+Investment: $233.75
+[2026-04-23 14:33:57] [INFO] 📊 GRID SETUP: LINK/USD
+Range: $8.79 - $9.71
+Levels: 10 | Spacing: $0.09 (0.99%)
+Order size: 5.054054 (~$46.75)
+Investment: $233.75
+[2026-04-23 14:34:04] [INFO] 📊 GRID SETUP: AVAX/USD
+Range: $8.79 - $9.71
+Levels: 10 | Spacing: $0.09 (0.99%)
+Order size: 4.043243 (~$37.40)
+Investment: $187.00
+[2026-04-23 14:46:38] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID SOL/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=SOL%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf564610>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-23 15:06:33] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID AVAX/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=AVAX%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf508820>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-23 15:07:35] [TRADE] 🟢 GRID BUY SOL/USD @ $85.20
+Sell queued @ $86.06
+[2026-04-23 16:17:16] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 16:17:17] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $0.39 (1 cycles)
+[2026-04-23 16:58:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.16
+Sell queued @ $9.25
+[2026-04-23 17:11:11] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 17:11:12] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $0.79 (2 cycles)
+[2026-04-23 17:11:24] [TRADE] 🟢 GRID BUY ETH/USD @ $2,307.76
+Sell queued @ $2,331.07
+[2026-04-23 17:16:03] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 17:16:04] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $1.18 (3 cycles)
+[2026-04-23 17:24:21] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 17:25:35] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $1.58 (4 cycles)
+[2026-04-23 17:41:04] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 17:41:16] [TRADE] 🟢 GRID BUY LINK/USD @ $9.16
+Sell queued @ $9.25
+[2026-04-23 17:53:42] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $1.97 (5 cycles)
+[2026-04-23 19:32:11] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 19:32:12] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $2.37 (6 cycles)
+[2026-04-23 19:36:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.07
+Sell queued @ $9.16
+[2026-04-23 19:36:30] [TRADE] ✅ GRID SELL AVAX/USD @ $9.16
+Cycle profit: $0.26 | Total: $0.26 (1 cycles)
+[2026-04-23 19:39:40] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 19:39:41] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $2.76 (7 cycles)
+[2026-04-23 19:40:45] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 19:40:46] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $3.15 (8 cycles)
+[2026-04-23 19:41:53] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.07
+Sell queued @ $9.16
+[2026-04-23 19:41:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.16
+Cycle profit: $0.26 | Total: $0.52 (2 cycles)
+[2026-04-23 19:47:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.07
+Sell queued @ $9.16
+[2026-04-23 19:47:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.16
+Cycle profit: $0.26 | Total: $0.78 (3 cycles)
+[2026-04-23 20:53:06] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 20:53:06] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $3.55 (9 cycles)
+[2026-04-23 21:08:56] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 21:08:57] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $3.94 (10 cycles)
+[2026-04-23 21:53:16] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 21:53:17] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $4.33 (11 cycles)
+[2026-04-23 22:11:13] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 22:11:13] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $4.73 (12 cycles)
+[2026-04-23 22:41:49] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 22:41:50] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $5.12 (13 cycles)
+[2026-04-23 22:58:43] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 22:58:43] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $5.51 (14 cycles)
+[2026-04-23 23:00:51] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-23 23:00:51] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $5.91 (15 cycles)
+[2026-04-24 00:03:04] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 00:03:05] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $6.30 (16 cycles)
+[2026-04-24 00:04:09] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 00:04:10] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $6.69 (17 cycles)
+[2026-04-24 01:15:54] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 01:15:55] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $7.09 (18 cycles)
+[2026-04-24 01:16:59] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 01:17:00] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $7.48 (19 cycles)
+[2026-04-24 01:49:41] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 01:49:42] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $7.87 (20 cycles)
+[2026-04-24 02:24:30] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 02:24:31] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $8.26 (21 cycles)
+[2026-04-24 03:16:12] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 03:16:13] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $8.66 (22 cycles)
+[2026-04-24 04:11:03] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 04:11:03] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $9.05 (23 cycles)
+[2026-04-24 04:44:49] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 04:44:50] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $9.45 (24 cycles)
+[2026-04-24 05:53:30] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 05:53:31] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $9.84 (25 cycles)
+[2026-04-24 06:42:01] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 06:42:02] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $10.23 (26 cycles)
+[2026-04-24 09:46:35] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 09:46:35] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $10.63 (27 cycles)
+[2026-04-24 10:54:07] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 10:54:08] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $11.02 (28 cycles)
+[2026-04-24 14:31:51] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 14:31:52] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $11.42 (29 cycles)
+[2026-04-24 14:58:00] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-24 14:58:01] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $11.81 (30 cycles)
+[2026-04-24 15:45:29] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID LINK/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=LINK%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf5087f0>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-25 16:38:45] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-25 16:38:46] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $12.20 (31 cycles)
+[2026-04-25 17:16:44] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-25 17:16:45] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $12.60 (32 cycles)
+[2026-04-25 19:35:59] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-25 19:36:00] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $12.99 (33 cycles)
+[2026-04-27 01:01:28] [INFO] 🛑 GRID SHUTDOWN: LINK/USD
+Cancelled 4 orders
+Total profit: $0.00 (0 cycles)
+[2026-04-27 01:01:28] [INFO] 🛑 GRID SHUTDOWN: LINK/USD
+Cancelled 0 orders
+Total profit: $0.00 (0 cycles)
+[2026-04-27 01:01:28] [INFO] 📊 GRID SETUP: LINK/USD
+Range: $9.08 - $10.04
+Levels: 10 | Spacing: $0.10 (1.00%)
+Order size: 4.890167 (~$46.75)
+Investment: $233.75
+[2026-04-27 01:34:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-27 01:41:40] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $0.33 (1 cycles)
+[2026-04-27 02:25:04] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-27 02:30:24] [INFO] 🛑 GRID SHUTDOWN: AVAX/USD
+Cancelled 4 orders
+Total profit: $0.78 (3 cycles)
+[2026-04-27 02:30:24] [INFO] 🛑 GRID SHUTDOWN: AVAX/USD
+Cancelled 0 orders
+Total profit: $0.78 (3 cycles)
+[2026-04-27 02:30:24] [INFO] 📊 GRID SETUP: AVAX/USD
+Range: $9.07 - $10.03
+Levels: 10 | Spacing: $0.10 (1.01%)
+Order size: 3.916230 (~$37.40)
+Investment: $187.00
+[2026-04-27 02:31:27] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $0.66 (2 cycles)
+[2026-04-27 02:51:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-27 02:53:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $1.04 (4 cycles)
+[2026-04-27 04:13:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-27 04:21:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-27 04:28:07] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $0.99 (3 cycles)
+[2026-04-27 04:30:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-27 04:31:19] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $1.32 (4 cycles)
+[2026-04-27 04:39:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $1.31 (5 cycles)
+[2026-04-27 05:07:19] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-27 05:14:43] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-27 05:15:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.36
+Sell queued @ $9.45
+[2026-04-27 05:16:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.45
+Cycle profit: $0.26 | Total: $1.57 (6 cycles)
+[2026-04-27 05:17:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.36
+Sell queued @ $9.45
+[2026-04-27 05:19:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.45
+Cycle profit: $0.26 | Total: $1.84 (7 cycles)
+[2026-04-27 05:19:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $2.10 (8 cycles)
+[2026-04-27 05:20:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-27 06:06:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 06:07:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $2.37 (9 cycles)
+[2026-04-27 06:30:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 06:31:36] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 06:31:37] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $13.38 (34 cycles)
+[2026-04-27 06:31:39] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 06:39:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $2.63 (10 cycles)
+[2026-04-27 06:41:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 06:48:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $2.90 (11 cycles)
+[2026-04-27 06:51:41] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $1.65 (5 cycles)
+[2026-04-27 06:51:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 06:52:46] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 06:54:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $3.17 (12 cycles)
+[2026-04-27 06:55:56] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $1.98 (6 cycles)
+[2026-04-27 06:57:00] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 07:00:09] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $2.31 (7 cycles)
+[2026-04-27 07:01:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 07:02:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $3.44 (13 cycles)
+[2026-04-27 07:03:20] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 07:04:24] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $2.64 (8 cycles)
+[2026-04-27 07:05:28] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 07:17:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 07:18:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $3.70 (14 cycles)
+[2026-04-27 07:28:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 07:29:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $3.97 (15 cycles)
+[2026-04-27 07:40:08] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $2.98 (9 cycles)
+[2026-04-27 07:43:17] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 07:54:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 07:55:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $4.24 (16 cycles)
+[2026-04-27 08:02:11] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 08:02:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 08:03:15] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $13.78 (35 cycles)
+[2026-04-27 08:07:30] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $4.50 (17 cycles)
+[2026-04-27 08:21:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 08:40:02] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $3.31 (10 cycles)
+[2026-04-27 08:40:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $4.77 (18 cycles)
+[2026-04-27 08:54:44] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 08:55:47] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $14.17 (36 cycles)
+[2026-04-27 09:06:19] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 09:12:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $3.64 (11 cycles)
+[2026-04-27 09:18:55] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 09:22:04] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $3.97 (12 cycles)
+[2026-04-27 10:11:28] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 10:14:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $4.30 (13 cycles)
+[2026-04-27 10:23:02] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 10:31:26] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $4.64 (14 cycles)
+[2026-04-27 10:33:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 10:38:48] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $4.97 (15 cycles)
+[2026-04-27 10:39:52] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 10:46:10] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $5.30 (16 cycles)
+[2026-04-27 10:53:31] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 10:55:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $5.63 (17 cycles)
+[2026-04-27 11:23:57] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 11:39:40] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 11:41:46] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $14.57 (37 cycles)
+[2026-04-27 12:20:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $5.96 (18 cycles)
+[2026-04-27 12:24:50] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 13:01:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 13:01:34] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $6.30 (19 cycles)
+[2026-04-27 13:02:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $6.63 (20 cycles)
+[2026-04-27 13:03:42] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 13:29:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 13:34:14] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 13:35:18] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $14.96 (38 cycles)
+[2026-04-27 13:40:44] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $6.96 (21 cycles)
+[2026-04-27 13:42:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $5.04 (19 cycles)
+[2026-04-27 13:47:11] [TRADE] 🟢 GRID BUY LINK/USD @ $9.27
+Sell queued @ $9.37
+[2026-04-27 13:51:29] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 13:51:30] [TRADE] ✅ GRID SELL LINK/USD @ $9.37
+Cycle profit: $0.33 | Total: $7.29 (22 cycles)
+[2026-04-27 13:51:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 13:52:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $7.63 (23 cycles)
+[2026-04-27 13:55:49] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 13:55:49] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $7.96 (24 cycles)
+[2026-04-27 14:02:24] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 14:03:27] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $15.36 (39 cycles)
+[2026-04-27 14:04:35] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 14:05:39] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $15.75 (40 cycles)
+[2026-04-27 14:07:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $5.31 (20 cycles)
+[2026-04-27 14:24:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 14:26:00] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 14:26:01] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $16.15 (41 cycles)
+[2026-04-27 14:26:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $5.57 (21 cycles)
+[2026-04-27 14:36:48] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 14:36:48] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $8.29 (25 cycles)
+[2026-04-27 15:06:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 15:07:46] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 15:19:30] [TRADE] 🟢 GRID BUY ETH/USD @ $2,284.45
+Sell queued @ $2,307.76
+[2026-04-27 15:19:31] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 15:22:42] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-27 15:22:46] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $16.54 (42 cycles)
+[2026-04-27 15:22:48] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $8.63 (26 cycles)
+[2026-04-27 15:23:53] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 15:27:09] [TRADE] 🟢 GRID BUY ETH/USD @ $2,261.14
+Sell queued @ $2,284.45
+[2026-04-27 15:27:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $5.84 (22 cycles)
+[2026-04-27 15:28:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 15:32:30] [TRADE] ✅ GRID SELL ETH/USD @ $2,284.45
+Cycle profit: $0.33 | Total: $0.33 (1 cycles)
+[2026-04-27 15:33:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $6.11 (23 cycles)
+[2026-04-27 15:34:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 15:52:43] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $6.37 (24 cycles)
+[2026-04-27 15:53:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 16:11:47] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-27 16:11:48] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $16.94 (43 cycles)
+[2026-04-27 16:11:49] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $17.34 (44 cycles)
+[2026-04-27 16:12:52] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 16:13:57] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $17.73 (45 cycles)
+[2026-04-27 16:15:00] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-27 16:15:01] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $18.13 (46 cycles)
+[2026-04-27 16:15:02] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 16:16:07] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $18.52 (47 cycles)
+[2026-04-27 16:17:11] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-27 16:17:11] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $18.92 (48 cycles)
+[2026-04-27 16:17:12] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-27 16:25:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $6.64 (25 cycles)
+[2026-04-27 16:26:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 17:27:05] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $8.96 (27 cycles)
+[2026-04-27 17:52:30] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 18:17:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $9.29 (28 cycles)
+[2026-04-27 18:27:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $6.91 (26 cycles)
+[2026-04-27 18:29:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 18:38:57] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 18:41:04] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $9.63 (29 cycles)
+[2026-04-27 19:00:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $7.18 (27 cycles)
+[2026-04-27 19:16:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 19:18:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $7.44 (28 cycles)
+[2026-04-27 19:19:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 19:30:48] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 19:54:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $7.71 (29 cycles)
+[2026-04-27 19:56:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 20:22:33] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $9.96 (30 cycles)
+[2026-04-27 20:24:39] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-27 20:29:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $7.98 (30 cycles)
+[2026-04-27 20:30:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 21:19:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $8.24 (31 cycles)
+[2026-04-27 21:27:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 21:35:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $8.51 (32 cycles)
+[2026-04-27 21:40:52] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $10.29 (31 cycles)
+[2026-04-27 21:49:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 22:40:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $8.78 (33 cycles)
+[2026-04-27 22:45:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 22:47:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $9.05 (34 cycles)
+[2026-04-27 23:24:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 23:26:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $9.31 (35 cycles)
+[2026-04-27 23:51:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 23:53:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $9.58 (36 cycles)
+[2026-04-27 23:55:31] [TRADE] ✅ GRID SELL ETH/USD @ $2,307.76
+Cycle profit: $0.33 | Total: $0.66 (2 cycles)
+[2026-04-27 23:56:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-27 23:56:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $9.85 (37 cycles)
+[2026-04-28 00:01:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 00:02:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $10.11 (38 cycles)
+[2026-04-28 00:17:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 00:18:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $10.38 (39 cycles)
+[2026-04-28 00:19:35] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $19.31 (49 cycles)
+[2026-04-28 00:31:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 00:37:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $10.65 (40 cycles)
+[2026-04-28 00:41:33] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-28 00:41:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 00:42:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $10.92 (41 cycles)
+[2026-04-28 01:33:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 01:39:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $11.18 (42 cycles)
+[2026-04-28 02:03:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 02:05:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $11.45 (43 cycles)
+[2026-04-28 02:08:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 02:10:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $11.72 (44 cycles)
+[2026-04-28 02:20:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 02:22:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $11.99 (45 cycles)
+[2026-04-28 02:39:45] [TRADE] 🟢 GRID BUY ETH/USD @ $2,284.45
+Sell queued @ $2,307.76
+[2026-04-28 03:26:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 03:36:05] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 03:39:14] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $10.63 (32 cycles)
+[2026-04-28 03:54:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $12.25 (46 cycles)
+[2026-04-28 03:56:58] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-28 03:56:58] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $19.71 (50 cycles)
+[2026-04-28 03:57:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 04:01:13] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 04:02:16] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $10.96 (33 cycles)
+[2026-04-28 04:07:28] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-28 04:07:29] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $20.11 (51 cycles)
+[2026-04-28 04:07:30] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $20.50 (52 cycles)
+[2026-04-28 04:08:33] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-28 04:15:52] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-28 04:15:53] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $20.90 (53 cycles)
+[2026-04-28 04:16:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $12.52 (47 cycles)
+[2026-04-28 04:18:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 04:58:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $12.79 (48 cycles)
+[2026-04-28 05:12:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 06:46:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $13.05 (49 cycles)
+[2026-04-28 06:47:21] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 06:47:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 07:03:01] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $11.29 (34 cycles)
+[2026-04-28 07:23:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $13.32 (50 cycles)
+[2026-04-28 07:28:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 07:31:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $13.59 (51 cycles)
+[2026-04-28 07:32:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 07:55:14] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 08:19:15] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $11.63 (35 cycles)
+[2026-04-28 08:46:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $13.86 (52 cycles)
+[2026-04-28 09:07:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 09:20:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $14.12 (53 cycles)
+[2026-04-28 09:23:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 10:57:50] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 11:03:04] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $11.96 (36 cycles)
+[2026-04-28 11:04:06] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $21.29 (54 cycles)
+[2026-04-28 11:05:09] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-28 11:09:20] [TRADE] 🟢 GRID BUY SOL/USD @ $82.62
+Sell queued @ $83.48
+[2026-04-28 11:09:21] [TRADE] ✅ GRID SELL SOL/USD @ $83.48
+Cycle profit: $0.40 | Total: $21.69 (55 cycles)
+[2026-04-28 11:09:21] [TRADE] ✅ GRID SELL SOL/USD @ $85.20
+Cycle profit: $0.39 | Total: $22.08 (56 cycles)
+[2026-04-28 11:10:25] [TRADE] 🟢 GRID BUY SOL/USD @ $84.34
+Sell queued @ $85.20
+[2026-04-28 11:17:45] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 11:51:07] [INFO] 🛑 GRID SHUTDOWN: SOL/USD
+Cancelled 3 orders
+Total profit: $22.08 (56 cycles)
+[2026-04-28 11:51:07] [INFO] 🛑 GRID SHUTDOWN: SOL/USD
+Cancelled 0 orders
+Total profit: $22.08 (56 cycles)
+[2026-04-28 11:51:08] [INFO] 📊 GRID SETUP: SOL/USD
+Range: $78.99 - $87.31
+Levels: 10 | Spacing: $0.83 (1.00%)
+Order size: 0.674684 (~$56.10)
+Investment: $280.50
+[2026-04-28 12:05:50] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $12.29 (37 cycles)
+[2026-04-28 12:20:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 12:23:42] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $12.63 (38 cycles)
+[2026-04-28 12:24:46] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 12:39:28] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $12.96 (39 cycles)
+[2026-04-28 12:40:32] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 12:51:04] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $13.29 (40 cycles)
+[2026-04-28 13:01:34] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 13:11:01] [TRADE] 🟢 GRID BUY ETH/USD @ $2,261.14
+Sell queued @ $2,284.45
+[2026-04-28 13:30:57] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-28 13:30:58] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $22.48 (57 cycles)
+[2026-04-28 13:31:29] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID LINK/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=LINK%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf564670>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-28 13:40:21] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $13.63 (41 cycles)
+[2026-04-28 13:46:53] [TRADE] ✅ GRID SELL ETH/USD @ $2,284.45
+Cycle profit: $0.33 | Total: $0.99 (3 cycles)
+[2026-04-28 13:55:44] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 14:07:41] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $13.96 (42 cycles)
+[2026-04-28 14:08:45] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 14:28:29] [TRADE] 🟢 GRID BUY ETH/USD @ $2,261.14
+Sell queued @ $2,284.45
+[2026-04-28 14:32:52] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $14.29 (43 cycles)
+[2026-04-28 14:33:55] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-28 14:33:56] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $22.87 (58 cycles)
+[2026-04-28 14:33:59] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 14:46:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $14.39 (54 cycles)
+[2026-04-28 14:47:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 14:49:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $14.66 (55 cycles)
+[2026-04-28 14:50:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 15:02:49] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $14.63 (44 cycles)
+[2026-04-28 15:03:55] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 15:45:08] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $14.96 (45 cycles)
+[2026-04-28 15:47:19] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 16:05:35] [TRADE] ✅ GRID SELL ETH/USD @ $2,284.45
+Cycle profit: $0.33 | Total: $1.32 (4 cycles)
+[2026-04-28 16:46:14] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $15.30 (46 cycles)
+[2026-04-28 16:49:26] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 17:04:18] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $15.63 (47 cycles)
+[2026-04-28 17:19:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 17:35:09] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $15.96 (48 cycles)
+[2026-04-28 18:48:14] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 18:48:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $14.92 (56 cycles)
+[2026-04-28 18:49:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 19:27:29] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $16.30 (49 cycles)
+[2026-04-28 19:31:43] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 19:42:19] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $16.63 (50 cycles)
+[2026-04-28 19:46:36] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 19:48:44] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $16.96 (51 cycles)
+[2026-04-28 20:29:12] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-28 20:29:13] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $23.26 (59 cycles)
+[2026-04-28 20:37:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $15.19 (57 cycles)
+[2026-04-28 20:38:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 20:50:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $15.46 (58 cycles)
+[2026-04-28 20:51:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 21:15:19] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 21:16:22] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $17.30 (52 cycles)
+[2026-04-28 21:55:05] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 22:06:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $17.63 (53 cycles)
+[2026-04-28 22:15:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $15.73 (59 cycles)
+[2026-04-28 22:16:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 22:32:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $15.99 (60 cycles)
+[2026-04-28 22:33:52] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-28 22:52:42] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 22:57:57] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $17.96 (54 cycles)
+[2026-04-28 23:27:14] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 23:41:53] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $18.30 (55 cycles)
+[2026-04-28 23:45:02] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-28 23:48:11] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $18.63 (56 cycles)
+[2026-04-29 00:01:48] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 00:02:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $18.96 (57 cycles)
+[2026-04-29 01:49:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $16.26 (61 cycles)
+[2026-04-29 01:50:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 02:12:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $16.53 (62 cycles)
+[2026-04-29 02:14:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 02:52:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $16.79 (63 cycles)
+[2026-04-29 02:54:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 02:56:38] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 03:08:09] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $19.30 (58 cycles)
+[2026-04-29 03:10:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $17.06 (64 cycles)
+[2026-04-29 03:19:41] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 03:19:41] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $19.63 (59 cycles)
+[2026-04-29 03:27:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 03:38:35] [TRADE] ✅ GRID SELL ETH/USD @ $2,307.76
+Cycle profit: $0.33 | Total: $1.65 (5 cycles)
+[2026-04-29 03:38:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $17.33 (65 cycles)
+[2026-04-29 03:51:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 03:52:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $17.60 (66 cycles)
+[2026-04-29 03:56:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 03:58:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $17.86 (67 cycles)
+[2026-04-29 05:57:46] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $19.96 (60 cycles)
+[2026-04-29 05:58:50] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-04-29 06:57:25] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 06:57:25] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $20.29 (61 cycles)
+[2026-04-29 07:45:34] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 07:45:35] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $20.63 (62 cycles)
+[2026-04-29 08:21:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 08:21:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $18.13 (68 cycles)
+[2026-04-29 09:19:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 09:19:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $18.40 (69 cycles)
+[2026-04-29 09:30:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 09:30:16] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $20.96 (63 cycles)
+[2026-04-29 10:30:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $18.66 (70 cycles)
+[2026-04-29 10:32:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-29 11:04:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $18.92 (71 cycles)
+[2026-04-29 11:05:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 11:05:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $19.19 (72 cycles)
+[2026-04-29 11:05:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-04-29 11:37:58] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 11:37:58] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $21.29 (64 cycles)
+[2026-04-29 12:30:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 12:31:20] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 12:32:24] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $21.62 (65 cycles)
+[2026-04-29 12:41:49] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 12:42:53] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $21.96 (66 cycles)
+[2026-04-29 12:46:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $19.46 (73 cycles)
+[2026-04-29 12:54:25] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 12:55:28] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $22.29 (67 cycles)
+[2026-04-29 12:57:34] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 12:58:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $22.62 (68 cycles)
+[2026-04-29 13:01:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 13:02:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $19.72 (74 cycles)
+[2026-04-29 13:05:59] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 13:06:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 13:07:04] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $22.96 (69 cycles)
+[2026-04-29 13:07:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $19.99 (75 cycles)
+[2026-04-29 13:16:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 13:17:34] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $20.26 (76 cycles)
+[2026-04-29 13:30:17] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 13:31:25] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $23.29 (70 cycles)
+[2026-04-29 13:31:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 13:41:15] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 13:42:23] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $23.62 (71 cycles)
+[2026-04-29 13:46:46] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 13:55:41] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $23.96 (72 cycles)
+[2026-04-29 13:56:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $20.53 (77 cycles)
+[2026-04-29 14:04:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 14:05:30] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:08:43] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $24.29 (73 cycles)
+[2026-04-29 14:13:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $20.79 (78 cycles)
+[2026-04-29 14:14:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 14:18:43] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:19:48] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $24.63 (74 cycles)
+[2026-04-29 14:30:38] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:31:43] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $24.96 (75 cycles)
+[2026-04-29 14:37:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $21.06 (79 cycles)
+[2026-04-29 14:41:27] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:43:36] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $25.29 (76 cycles)
+[2026-04-29 14:43:38] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 14:47:51] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:51:05] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $25.63 (77 cycles)
+[2026-04-29 14:51:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $21.33 (80 cycles)
+[2026-04-29 14:52:12] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:53:17] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $25.96 (78 cycles)
+[2026-04-29 14:54:22] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:55:27] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $26.29 (79 cycles)
+[2026-04-29 14:56:31] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:57:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $26.63 (80 cycles)
+[2026-04-29 14:58:42] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 14:59:46] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $26.96 (81 cycles)
+[2026-04-29 15:00:52] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 15:01:55] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $27.29 (82 cycles)
+[2026-04-29 15:03:00] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 15:04:12] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $27.63 (83 cycles)
+[2026-04-29 15:04:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 15:05:19] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 15:06:23] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-29 15:06:23] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $23.65 (60 cycles)
+[2026-04-29 15:06:25] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $27.96 (84 cycles)
+[2026-04-29 15:07:29] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 15:12:52] [TRADE] 🟢 GRID BUY ETH/USD @ $2,284.45
+Sell queued @ $2,307.76
+[2026-04-29 15:46:29] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-29 15:46:30] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $24.05 (61 cycles)
+[2026-04-29 15:58:22] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $28.29 (85 cycles)
+[2026-04-29 15:59:26] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 16:17:39] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $28.63 (86 cycles)
+[2026-04-29 16:18:44] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 17:02:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $21.59 (81 cycles)
+[2026-04-29 17:03:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-29 17:54:57] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-29 17:59:13] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $24.44 (62 cycles)
+[2026-04-29 18:07:51] [TRADE] 🟢 GRID BUY ETH/USD @ $2,261.14
+Sell queued @ $2,284.45
+[2026-04-29 18:08:54] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-29 18:08:57] [INFO] 🛑 GRID SHUTDOWN: ETH/USD
+Cancelled 4 orders
+Total profit: $1.65 (5 cycles)
+[2026-04-29 18:08:57] [INFO] 🛑 GRID SHUTDOWN: ETH/USD
+Cancelled 0 orders
+Total profit: $1.65 (5 cycles)
+[2026-04-29 18:08:57] [INFO] 📊 GRID SETUP: ETH/USD
+Range: $2,133.99 - $2,358.62
+Levels: 10 | Spacing: $22.46 (1.00%)
+Order size: 0.020812 (~$46.75)
+Investment: $233.75
+[2026-04-29 18:13:20] [TRADE] 🟢 GRID BUY SOL/USD @ $80.65
+Sell queued @ $81.49
+[2026-04-29 18:13:21] [TRADE] ✅ GRID SELL SOL/USD @ $81.49
+Cycle profit: $0.40 | Total: $24.84 (63 cycles)
+[2026-04-29 18:48:38] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $25.23 (64 cycles)
+[2026-04-29 18:49:43] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-29 21:43:22] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $25.62 (65 cycles)
+[2026-04-29 22:00:05] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $28.96 (87 cycles)
+[2026-04-29 22:01:08] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-29 22:22:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $21.86 (82 cycles)
+[2026-04-29 22:23:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 01:02:43] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $22.13 (83 cycles)
+[2026-04-30 01:12:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 01:29:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $22.40 (84 cycles)
+[2026-04-30 01:30:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 02:01:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $22.66 (85 cycles)
+[2026-04-30 02:08:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 02:19:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $22.93 (86 cycles)
+[2026-04-30 02:23:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 02:32:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $23.20 (87 cycles)
+[2026-04-30 02:33:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 03:28:51] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 03:40:20] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $26.01 (66 cycles)
+[2026-04-30 04:03:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $23.46 (88 cycles)
+[2026-04-30 04:04:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 04:34:37] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 05:04:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $23.73 (89 cycles)
+[2026-04-30 05:05:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 05:31:00] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $26.41 (67 cycles)
+[2026-04-30 05:50:50] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 06:39:52] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $26.80 (68 cycles)
+[2026-04-30 07:00:44] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 07:31:00] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $27.19 (69 cycles)
+[2026-04-30 12:50:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $24.00 (90 cycles)
+[2026-04-30 12:51:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 12:52:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $24.27 (91 cycles)
+[2026-04-30 12:53:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 12:54:30] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $24.53 (92 cycles)
+[2026-04-30 12:55:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 13:08:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $24.80 (93 cycles)
+[2026-04-30 13:09:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 13:30:48] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID LINK/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=LINK%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf508df0>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-30 14:01:04] [ERROR] 🚨 <b>ERROR</b>
+
+Error processing GRID ETH/USD: HTTPSConnectionPool(host='data.alpaca.markets', port=443): Max retries exceeded with url: /v1beta3/crypto/us/latest/trades?symbols=ETH%2FUSD (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7134bf50b160>, 'Connection to data.alpaca.markets timed out. (connect timeout=30)'))
+[2026-04-30 14:28:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $25.07 (94 cycles)
+[2026-04-30 14:29:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 14:36:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $25.34 (95 cycles)
+[2026-04-30 14:37:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 16:04:19] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $29.29 (88 cycles)
+[2026-04-30 16:05:24] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-04-30 16:27:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $25.60 (96 cycles)
+[2026-04-30 16:28:52] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 16:28:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 16:29:57] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $27.59 (70 cycles)
+[2026-04-30 16:51:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $25.87 (97 cycles)
+[2026-04-30 16:52:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 17:49:36] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 18:01:39] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $27.98 (71 cycles)
+[2026-04-30 19:44:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $26.14 (98 cycles)
+[2026-04-30 19:45:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 19:47:53] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 19:48:59] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $28.37 (72 cycles)
+[2026-04-30 20:01:05] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:12:35] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $28.77 (73 cycles)
+[2026-04-30 20:13:38] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:23:02] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $29.16 (74 cycles)
+[2026-04-30 20:31:24] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:34:32] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $29.55 (75 cycles)
+[2026-04-30 20:36:38] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:37:41] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $29.94 (76 cycles)
+[2026-04-30 20:38:44] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:39:48] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $30.34 (77 cycles)
+[2026-04-30 20:40:51] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:41:54] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $30.73 (78 cycles)
+[2026-04-30 20:42:58] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:44:01] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $31.12 (79 cycles)
+[2026-04-30 20:45:05] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:46:08] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $31.52 (80 cycles)
+[2026-04-30 20:48:14] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 20:53:27] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $31.91 (81 cycles)
+[2026-04-30 21:00:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $26.40 (99 cycles)
+[2026-04-30 21:01:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 21:04:58] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 21:06:01] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $32.30 (82 cycles)
+[2026-04-30 21:51:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $26.67 (100 cycles)
+[2026-04-30 21:53:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 22:30:34] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-04-30 23:10:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $26.94 (101 cycles)
+[2026-04-30 23:11:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 23:12:22] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $27.21 (102 cycles)
+[2026-04-30 23:13:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-04-30 23:39:28] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $32.70 (83 cycles)
+[2026-05-01 00:06:36] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 00:06:37] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $33.09 (84 cycles)
+[2026-05-01 00:32:43] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 00:32:43] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $33.48 (85 cycles)
+[2026-05-01 00:59:51] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 01:00:54] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $33.87 (86 cycles)
+[2026-05-01 02:14:58] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 02:14:58] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $34.27 (87 cycles)
+[2026-05-01 02:17:04] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 02:17:05] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $34.66 (88 cycles)
+[2026-05-01 02:19:12] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 02:19:13] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $35.05 (89 cycles)
+[2026-05-01 02:28:37] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 02:28:38] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $35.44 (90 cycles)
+[2026-05-01 03:21:53] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $29.63 (89 cycles)
+[2026-05-01 03:24:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $27.47 (103 cycles)
+[2026-05-01 03:25:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 03:31:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $27.74 (104 cycles)
+[2026-05-01 03:34:27] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 03:40:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 04:10:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $28.01 (105 cycles)
+[2026-05-01 04:12:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 05:15:39] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 05:15:39] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $35.84 (91 cycles)
+[2026-05-01 05:44:53] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 05:44:54] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $36.23 (92 cycles)
+[2026-05-01 06:49:41] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 06:49:41] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $36.62 (93 cycles)
+[2026-05-01 06:59:05] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 06:59:06] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $37.01 (94 cycles)
+[2026-05-01 07:04:20] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 07:04:21] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $37.40 (95 cycles)
+[2026-05-01 09:32:30] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $29.96 (90 cycles)
+[2026-05-01 09:33:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 09:37:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $28.27 (106 cycles)
+[2026-05-01 09:38:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 11:19:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $28.54 (107 cycles)
+[2026-05-01 11:21:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 11:32:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $28.81 (108 cycles)
+[2026-05-01 11:33:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 12:34:05] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $30.29 (91 cycles)
+[2026-05-01 12:39:18] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 12:44:32] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $30.63 (92 cycles)
+[2026-05-01 12:49:46] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 12:51:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $30.96 (93 cycles)
+[2026-05-01 13:00:13] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 13:06:29] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $31.29 (94 cycles)
+[2026-05-01 13:31:38] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 13:34:52] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $31.63 (95 cycles)
+[2026-05-01 13:40:13] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 13:52:18] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $31.96 (96 cycles)
+[2026-05-01 13:55:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $29.08 (109 cycles)
+[2026-05-01 14:03:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 14:09:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $29.34 (110 cycles)
+[2026-05-01 14:26:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 14:27:26] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 14:29:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $32.29 (97 cycles)
+[2026-05-01 14:48:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $29.61 (111 cycles)
+[2026-05-01 14:56:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 15:01:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $29.88 (112 cycles)
+[2026-05-01 15:02:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 15:04:42] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 15:05:46] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $32.63 (98 cycles)
+[2026-05-01 15:11:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $30.14 (113 cycles)
+[2026-05-01 15:39:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 15:57:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $30.41 (114 cycles)
+[2026-05-01 16:03:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 16:22:39] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 16:51:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $30.68 (115 cycles)
+[2026-05-01 16:53:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-01 16:57:59] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $32.96 (99 cycles)
+[2026-05-01 17:05:32] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:14:02] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $33.30 (100 cycles)
+[2026-05-01 17:15:07] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:42:42] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $33.63 (101 cycles)
+[2026-05-01 17:43:46] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:44:50] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $33.96 (102 cycles)
+[2026-05-01 17:45:54] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:51:13] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $34.30 (103 cycles)
+[2026-05-01 17:52:19] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:53:28] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $34.63 (104 cycles)
+[2026-05-01 17:54:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:55:36] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $34.96 (105 cycles)
+[2026-05-01 17:56:41] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:57:47] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $35.30 (106 cycles)
+[2026-05-01 17:58:51] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 17:59:57] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $35.63 (107 cycles)
+[2026-05-01 18:01:00] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 18:24:21] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $35.96 (108 cycles)
+[2026-05-01 18:25:26] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 18:26:31] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $36.30 (109 cycles)
+[2026-05-01 18:27:37] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 18:28:42] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $36.63 (110 cycles)
+[2026-05-01 18:29:47] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-01 20:23:31] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 20:24:34] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $37.79 (96 cycles)
+[2026-05-01 22:17:14] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 22:17:14] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $38.19 (97 cycles)
+[2026-05-01 22:20:23] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-01 22:20:24] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $38.58 (98 cycles)
+[2026-05-02 00:01:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $30.95 (116 cycles)
+[2026-05-02 00:02:39] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $36.96 (111 cycles)
+[2026-05-02 00:02:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:03:42] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:03:43] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $38.97 (99 cycles)
+[2026-05-02 00:03:45] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 00:03:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $31.21 (117 cycles)
+[2026-05-02 00:04:48] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:04:48] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $39.36 (100 cycles)
+[2026-05-02 00:04:50] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $37.30 (112 cycles)
+[2026-05-02 00:04:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:05:53] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:05:54] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $39.75 (101 cycles)
+[2026-05-02 00:05:56] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 00:05:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $31.48 (118 cycles)
+[2026-05-02 00:06:59] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:06:59] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $40.15 (102 cycles)
+[2026-05-02 00:07:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:08:04] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:08:04] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $40.54 (103 cycles)
+[2026-05-02 00:08:06] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $37.63 (113 cycles)
+[2026-05-02 00:08:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $31.75 (119 cycles)
+[2026-05-02 00:09:10] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 00:09:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:10:13] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 00:10:14] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $40.93 (104 cycles)
+[2026-05-02 00:12:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $32.01 (120 cycles)
+[2026-05-02 00:13:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:17:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $32.28 (121 cycles)
+[2026-05-02 00:18:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 00:22:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $32.55 (122 cycles)
+[2026-05-02 00:23:53] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 01:00:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $32.82 (123 cycles)
+[2026-05-02 01:01:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 01:06:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $33.08 (124 cycles)
+[2026-05-02 01:07:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 02:05:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $33.35 (125 cycles)
+[2026-05-02 02:06:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 05:35:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $37.96 (114 cycles)
+[2026-05-02 05:35:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $33.62 (126 cycles)
+[2026-05-02 05:36:55] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 05:36:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 11:25:23] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 11:25:23] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $41.32 (105 cycles)
+[2026-05-02 12:15:30] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 12:15:31] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $41.71 (106 cycles)
+[2026-05-02 13:56:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $33.88 (127 cycles)
+[2026-05-02 13:57:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 15:04:34] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $34.15 (128 cycles)
+[2026-05-02 15:05:38] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 15:50:29] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $38.30 (115 cycles)
+[2026-05-02 15:51:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 16:54:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $34.42 (129 cycles)
+[2026-05-02 16:56:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 16:57:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $34.69 (130 cycles)
+[2026-05-02 16:58:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 17:03:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $34.95 (131 cycles)
+[2026-05-02 17:06:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 17:13:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $35.22 (132 cycles)
+[2026-05-02 17:14:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 17:15:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $35.49 (133 cycles)
+[2026-05-02 17:17:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 17:18:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $35.75 (134 cycles)
+[2026-05-02 17:19:19] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 17:45:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $36.02 (135 cycles)
+[2026-05-02 17:46:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 18:11:29] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $38.63 (116 cycles)
+[2026-05-02 18:12:33] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 18:15:40] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 18:15:41] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $42.11 (107 cycles)
+[2026-05-02 18:16:44] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-02 18:16:45] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $42.50 (108 cycles)
+[2026-05-02 18:27:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $36.29 (136 cycles)
+[2026-05-02 18:28:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 20:04:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $36.56 (137 cycles)
+[2026-05-02 20:05:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 20:29:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $36.82 (138 cycles)
+[2026-05-02 20:30:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 20:31:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $37.09 (139 cycles)
+[2026-05-02 20:34:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 20:35:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $37.36 (140 cycles)
+[2026-05-02 20:36:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 20:37:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $37.62 (141 cycles)
+[2026-05-02 20:40:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 21:38:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $37.89 (142 cycles)
+[2026-05-02 21:41:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 21:46:36] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $38.96 (117 cycles)
+[2026-05-02 21:54:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $38.16 (143 cycles)
+[2026-05-02 22:01:14] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:05:25] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $39.30 (118 cycles)
+[2026-05-02 22:07:31] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:09:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $39.63 (119 cycles)
+[2026-05-02 22:11:43] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:15:54] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $39.96 (120 cycles)
+[2026-05-02 22:18:00] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:21:08] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $40.30 (121 cycles)
+[2026-05-02 22:22:12] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:33:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 22:36:49] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $40.63 (122 cycles)
+[2026-05-02 22:38:55] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:43:06] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $40.96 (123 cycles)
+[2026-05-02 22:44:11] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 22:49:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $38.43 (144 cycles)
+[2026-05-02 22:54:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $41.30 (124 cycles)
+[2026-05-02 22:56:44] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-02 23:22:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-02 23:55:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $38.69 (145 cycles)
+[2026-05-03 00:01:26] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $41.63 (125 cycles)
+[2026-05-03 00:01:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 00:02:30] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 00:06:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $38.96 (146 cycles)
+[2026-05-03 00:09:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 04:02:25] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 04:02:26] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $42.89 (109 cycles)
+[2026-05-03 07:01:51] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 07:01:51] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $43.28 (110 cycles)
+[2026-05-03 07:01:53] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $41.97 (126 cycles)
+[2026-05-03 07:02:56] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 07:07:07] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 07:07:07] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $43.67 (111 cycles)
+[2026-05-03 10:16:58] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $42.30 (127 cycles)
+[2026-05-03 10:18:02] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 10:23:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $39.23 (147 cycles)
+[2026-05-03 10:24:19] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 10:52:28] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 10:52:29] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $44.06 (112 cycles)
+[2026-05-03 11:36:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $39.49 (148 cycles)
+[2026-05-03 11:37:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 11:49:54] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $42.63 (128 cycles)
+[2026-05-03 11:54:05] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 12:03:28] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $42.97 (129 cycles)
+[2026-05-03 12:07:40] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 12:17:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $39.76 (149 cycles)
+[2026-05-03 12:18:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 12:52:32] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $43.30 (130 cycles)
+[2026-05-03 12:54:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $40.03 (150 cycles)
+[2026-05-03 12:55:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 12:56:45] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 13:45:45] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 13:45:46] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $44.46 (113 cycles)
+[2026-05-03 13:55:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $40.30 (151 cycles)
+[2026-05-03 13:56:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 14:34:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $40.56 (152 cycles)
+[2026-05-03 14:35:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 14:53:40] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $40.83 (153 cycles)
+[2026-05-03 14:54:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 15:21:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $41.10 (154 cycles)
+[2026-05-03 15:22:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 15:26:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $41.37 (155 cycles)
+[2026-05-03 15:27:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 15:28:13] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $43.63 (131 cycles)
+[2026-05-03 15:29:16] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 15:37:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $41.63 (156 cycles)
+[2026-05-03 15:38:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 16:09:58] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $43.97 (132 cycles)
+[2026-05-03 16:11:02] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 16:15:12] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 16:15:12] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $44.85 (114 cycles)
+[2026-05-03 16:50:42] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 16:50:43] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $45.24 (115 cycles)
+[2026-05-03 16:57:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $41.90 (157 cycles)
+[2026-05-03 16:58:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 17:02:14] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-03 17:02:14] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $45.63 (116 cycles)
+[2026-05-03 17:58:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $42.17 (158 cycles)
+[2026-05-03 17:59:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 18:28:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $42.43 (159 cycles)
+[2026-05-03 18:29:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 18:59:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $42.70 (160 cycles)
+[2026-05-03 19:00:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 21:10:33] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $44.30 (133 cycles)
+[2026-05-03 21:11:36] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 22:30:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $42.97 (161 cycles)
+[2026-05-03 22:31:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 22:47:35] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $44.63 (134 cycles)
+[2026-05-03 22:50:44] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-03 23:01:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $43.24 (162 cycles)
+[2026-05-03 23:03:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-03 23:06:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $43.50 (163 cycles)
+[2026-05-03 23:07:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 00:16:20] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $44.97 (135 cycles)
+[2026-05-04 00:17:23] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 01:56:29] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $43.77 (164 cycles)
+[2026-05-04 01:57:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 01:58:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $44.04 (165 cycles)
+[2026-05-04 01:59:39] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $45.30 (136 cycles)
+[2026-05-04 01:59:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 02:00:43] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 02:01:46] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $45.63 (137 cycles)
+[2026-05-04 02:13:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $44.30 (166 cycles)
+[2026-05-04 03:58:36] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 03:58:37] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $45.97 (138 cycles)
+[2026-05-04 04:12:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 04:12:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $44.57 (167 cycles)
+[2026-05-04 05:05:25] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 05:05:26] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $46.30 (139 cycles)
+[2026-05-04 05:35:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 05:35:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $44.84 (168 cycles)
+[2026-05-04 06:12:13] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 06:12:13] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $46.63 (140 cycles)
+[2026-05-04 06:17:27] [TRADE] 🟢 GRID BUY LINK/USD @ $9.18
+Sell queued @ $9.27
+[2026-05-04 06:17:28] [TRADE] ✅ GRID SELL LINK/USD @ $9.27
+Cycle profit: $0.33 | Total: $46.96 (141 cycles)
+[2026-05-04 07:06:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 07:07:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $45.10 (169 cycles)
+[2026-05-04 07:15:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 07:15:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $45.37 (170 cycles)
+[2026-05-04 07:19:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 07:20:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $45.64 (171 cycles)
+[2026-05-04 07:59:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 08:23:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $45.91 (172 cycles)
+[2026-05-04 08:24:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 08:35:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $46.17 (173 cycles)
+[2026-05-04 08:53:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 09:00:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $46.44 (174 cycles)
+[2026-05-04 09:05:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 09:17:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $46.71 (175 cycles)
+[2026-05-04 09:22:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 09:33:45] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $47.29 (142 cycles)
+[2026-05-04 09:40:02] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 09:40:02] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $47.62 (143 cycles)
+[2026-05-04 09:40:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $46.97 (176 cycles)
+[2026-05-04 10:03:00] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 10:05:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 10:39:32] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $47.95 (144 cycles)
+[2026-05-04 10:40:36] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 10:46:52] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $48.28 (145 cycles)
+[2026-05-04 10:47:56] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 12:16:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $47.24 (177 cycles)
+[2026-05-04 12:17:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 12:31:14] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $48.61 (146 cycles)
+[2026-05-04 12:32:17] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 13:43:48] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-04 13:43:49] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $46.02 (117 cycles)
+[2026-05-04 14:26:31] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $48.94 (147 cycles)
+[2026-05-04 14:27:36] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 14:49:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $47.51 (178 cycles)
+[2026-05-04 14:51:32] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $49.27 (148 cycles)
+[2026-05-04 14:52:39] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 14:52:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 14:53:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $47.78 (179 cycles)
+[2026-05-04 14:55:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 14:57:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $48.04 (180 cycles)
+[2026-05-04 15:12:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 15:16:50] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $49.60 (149 cycles)
+[2026-05-04 15:20:05] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 16:20:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $48.31 (181 cycles)
+[2026-05-04 16:22:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 16:23:40] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $48.58 (182 cycles)
+[2026-05-04 16:31:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 17:03:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $48.84 (183 cycles)
+[2026-05-04 18:23:10] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $49.93 (150 cycles)
+[2026-05-04 18:24:16] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 19:19:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 19:23:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $49.11 (184 cycles)
+[2026-05-04 19:30:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 19:39:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $49.38 (185 cycles)
+[2026-05-04 19:44:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 20:01:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $49.65 (186 cycles)
+[2026-05-04 20:02:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 20:10:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $49.91 (187 cycles)
+[2026-05-04 20:11:52] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 20:17:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $50.18 (188 cycles)
+[2026-05-04 20:20:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 20:27:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $50.45 (189 cycles)
+[2026-05-04 20:29:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 21:46:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $50.71 (190 cycles)
+[2026-05-04 21:53:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 21:54:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $50.98 (191 cycles)
+[2026-05-04 22:05:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 22:17:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $51.25 (192 cycles)
+[2026-05-04 22:31:44] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $50.26 (151 cycles)
+[2026-05-04 22:32:48] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-04 22:32:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-04 22:43:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $51.52 (193 cycles)
+[2026-05-04 22:55:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 00:06:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $51.78 (194 cycles)
+[2026-05-05 00:16:06] [TRADE] 🟢 GRID BUY SOL/USD @ $82.32
+Sell queued @ $83.15
+[2026-05-05 00:16:07] [TRADE] ✅ GRID SELL SOL/USD @ $83.15
+Cycle profit: $0.39 | Total: $46.41 (118 cycles)
+[2026-05-05 00:16:09] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $50.59 (152 cycles)
+[2026-05-05 00:17:12] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 00:18:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 00:48:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $52.05 (195 cycles)
+[2026-05-05 00:50:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 01:14:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $52.32 (196 cycles)
+[2026-05-05 02:14:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 02:15:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $52.59 (197 cycles)
+[2026-05-05 02:40:15] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $50.91 (153 cycles)
+[2026-05-05 02:50:41] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 03:01:08] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $51.24 (154 cycles)
+[2026-05-05 03:31:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 03:31:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $52.85 (198 cycles)
+[2026-05-05 03:41:51] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 03:47:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 03:47:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $53.12 (199 cycles)
+[2026-05-05 04:02:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 04:02:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $53.39 (200 cycles)
+[2026-05-05 04:11:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 04:12:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $53.65 (201 cycles)
+[2026-05-05 04:17:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 04:17:30] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $53.92 (202 cycles)
+[2026-05-05 04:25:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $51.57 (155 cycles)
+[2026-05-05 04:33:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 04:34:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $54.19 (203 cycles)
+[2026-05-05 04:40:29] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 04:47:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 04:48:51] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $51.90 (156 cycles)
+[2026-05-05 04:48:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $54.45 (204 cycles)
+[2026-05-05 05:03:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 05:05:35] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 05:06:38] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $52.23 (157 cycles)
+[2026-05-05 05:07:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $54.72 (205 cycles)
+[2026-05-05 05:17:05] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 05:18:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 05:18:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $54.99 (206 cycles)
+[2026-05-05 05:21:18] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $52.56 (158 cycles)
+[2026-05-05 05:26:31] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 05:26:32] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $52.89 (159 cycles)
+[2026-05-05 05:33:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 05:33:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $55.26 (207 cycles)
+[2026-05-05 05:35:57] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 05:35:58] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $53.22 (160 cycles)
+[2026-05-05 05:52:40] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 06:01:01] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $53.55 (161 cycles)
+[2026-05-05 06:26:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.17
+Sell queued @ $9.26
+[2026-05-05 06:26:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.26
+Cycle profit: $0.27 | Total: $55.52 (208 cycles)
+[2026-05-05 10:26:04] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 10:26:05] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $53.88 (162 cycles)
+[2026-05-05 10:32:21] [TRADE] 🟢 GRID BUY LINK/USD @ $9.46
+Sell queued @ $9.56
+[2026-05-05 10:32:22] [TRADE] ✅ GRID SELL LINK/USD @ $9.56
+Cycle profit: $0.33 | Total: $54.20 (163 cycles)
+[2026-05-05 13:50:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $55.79 (209 cycles)
+[2026-05-05 13:52:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 14:19:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $56.05 (210 cycles)
+[2026-05-05 14:22:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 14:30:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $56.31 (211 cycles)
+[2026-05-05 14:32:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 15:02:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $56.58 (212 cycles)
+[2026-05-05 15:03:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 15:51:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $56.84 (213 cycles)
+[2026-05-05 15:52:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 17:43:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $57.11 (214 cycles)
+[2026-05-05 17:44:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 20:11:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $57.37 (215 cycles)
+[2026-05-05 20:12:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:03:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $57.63 (216 cycles)
+[2026-05-05 21:04:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:05:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $57.90 (217 cycles)
+[2026-05-05 21:06:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:13:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $58.16 (218 cycles)
+[2026-05-05 21:14:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:30:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $58.42 (219 cycles)
+[2026-05-05 21:32:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:51:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $58.69 (220 cycles)
+[2026-05-05 21:52:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-05 21:53:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $58.95 (221 cycles)
+[2026-05-05 21:59:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 01:11:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $59.22 (222 cycles)
+[2026-05-06 01:37:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 01:42:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $59.48 (223 cycles)
+[2026-05-06 01:50:53] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 01:57:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $59.74 (224 cycles)
+[2026-05-06 02:27:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 03:11:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $60.01 (225 cycles)
+[2026-05-06 03:27:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 03:28:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $60.27 (226 cycles)
+[2026-05-06 04:07:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 04:07:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $60.53 (227 cycles)
+[2026-05-06 04:30:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 04:35:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $60.80 (228 cycles)
+[2026-05-06 05:00:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 05:02:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $61.06 (229 cycles)
+[2026-05-06 05:30:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 05:31:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $61.33 (230 cycles)
+[2026-05-06 07:10:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 07:11:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $61.59 (231 cycles)
+[2026-05-06 14:01:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 14:02:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $61.85 (232 cycles)
+[2026-05-06 14:07:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 14:18:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $62.12 (233 cycles)
+[2026-05-06 15:06:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 15:06:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $62.38 (234 cycles)
+[2026-05-06 15:46:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 15:46:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $62.64 (235 cycles)
+[2026-05-06 16:32:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 16:32:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $62.91 (236 cycles)
+[2026-05-06 18:20:19] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 18:20:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $63.17 (237 cycles)
+[2026-05-06 20:03:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 20:03:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $63.43 (238 cycles)
+[2026-05-06 20:11:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 20:13:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $63.70 (239 cycles)
+[2026-05-06 20:42:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 20:42:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $63.96 (240 cycles)
+[2026-05-06 21:21:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 21:21:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $64.22 (241 cycles)
+[2026-05-06 21:22:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 21:22:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $64.49 (242 cycles)
+[2026-05-06 21:32:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 21:32:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $64.75 (243 cycles)
+[2026-05-06 21:41:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 21:41:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $65.01 (244 cycles)
+[2026-05-06 22:20:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 22:20:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $65.28 (245 cycles)
+[2026-05-06 22:40:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 22:40:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $65.54 (246 cycles)
+[2026-05-06 23:04:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-06 23:06:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $65.80 (247 cycles)
+[2026-05-07 00:02:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 00:02:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $66.07 (248 cycles)
+[2026-05-07 02:13:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 02:20:30] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $66.33 (249 cycles)
+[2026-05-07 02:27:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 02:35:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $66.59 (250 cycles)
+[2026-05-07 03:09:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 03:23:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $66.86 (251 cycles)
+[2026-05-07 04:04:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 04:21:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $67.12 (252 cycles)
+[2026-05-07 04:48:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 04:51:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $67.39 (253 cycles)
+[2026-05-07 06:20:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 06:23:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $67.65 (254 cycles)
+[2026-05-07 07:55:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 07:55:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $67.91 (255 cycles)
+[2026-05-07 09:03:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 09:03:28] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $68.17 (256 cycles)
+[2026-05-07 11:33:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 11:33:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $68.44 (257 cycles)
+[2026-05-07 11:34:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 11:34:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $68.70 (258 cycles)
+[2026-05-07 11:49:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 11:49:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $68.97 (259 cycles)
+[2026-05-07 14:16:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 14:17:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $69.23 (260 cycles)
+[2026-05-07 14:18:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 15:10:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $69.49 (261 cycles)
+[2026-05-07 15:11:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 17:05:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $69.76 (262 cycles)
+[2026-05-07 17:20:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 18:06:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $70.02 (263 cycles)
+[2026-05-07 18:52:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 18:59:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $70.28 (264 cycles)
+[2026-05-07 19:14:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 19:19:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $70.55 (265 cycles)
+[2026-05-07 19:25:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 19:45:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $70.81 (266 cycles)
+[2026-05-07 19:52:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 19:56:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $71.08 (267 cycles)
+[2026-05-07 20:38:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 20:48:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $71.34 (268 cycles)
+[2026-05-07 20:51:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 21:54:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $71.60 (269 cycles)
+[2026-05-07 21:55:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 23:21:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $71.87 (270 cycles)
+[2026-05-07 23:22:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-07 23:40:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $72.13 (271 cycles)
+[2026-05-07 23:46:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 00:06:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $72.39 (272 cycles)
+[2026-05-08 00:07:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 00:16:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $72.66 (273 cycles)
+[2026-05-08 00:48:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 01:41:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $72.92 (274 cycles)
+[2026-05-08 02:02:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 02:08:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $73.19 (275 cycles)
+[2026-05-08 02:09:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 02:44:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $73.45 (276 cycles)
+[2026-05-08 03:01:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 03:16:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $73.71 (277 cycles)
+[2026-05-08 03:23:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 04:15:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $73.98 (278 cycles)
+[2026-05-08 05:10:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 05:16:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $74.24 (279 cycles)
+[2026-05-08 05:21:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 06:06:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $74.50 (280 cycles)
+[2026-05-08 06:09:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 06:30:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $74.77 (281 cycles)
+[2026-05-08 06:39:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 07:07:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $75.03 (282 cycles)
+[2026-05-08 07:08:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 07:35:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $75.30 (283 cycles)
+[2026-05-08 07:42:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 07:50:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $75.56 (284 cycles)
+[2026-05-08 07:58:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 08:06:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $75.82 (285 cycles)
+[2026-05-08 09:07:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 09:10:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $76.09 (286 cycles)
+[2026-05-08 09:17:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 09:17:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $76.35 (287 cycles)
+[2026-05-08 09:47:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 09:48:43] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $76.61 (288 cycles)
+[2026-05-08 10:03:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 10:03:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $76.88 (289 cycles)
+[2026-05-08 11:01:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 11:01:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $77.14 (290 cycles)
+[2026-05-08 12:05:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 12:05:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $77.40 (291 cycles)
+[2026-05-08 12:35:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 12:35:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $77.67 (292 cycles)
+[2026-05-08 13:08:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:09:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $77.93 (293 cycles)
+[2026-05-08 13:15:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:18:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $78.19 (294 cycles)
+[2026-05-08 13:30:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:32:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $78.46 (295 cycles)
+[2026-05-08 13:42:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:47:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $78.72 (296 cycles)
+[2026-05-08 13:48:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:50:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $78.99 (297 cycles)
+[2026-05-08 13:53:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 13:54:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $79.25 (298 cycles)
+[2026-05-08 14:03:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.45
+Sell queued @ $9.55
+[2026-05-08 14:03:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.55
+Cycle profit: $0.26 | Total: $79.51 (299 cycles)
+[2026-05-11 01:02:17] [INFO] 🛑 GRID SHUTDOWN: LINK/USD
+Cancelled 2 orders
+Total profit: $54.20 (163 cycles)
+[2026-05-11 01:02:17] [INFO] 🛑 GRID SHUTDOWN: LINK/USD
+Cancelled 0 orders
+Total profit: $54.20 (163 cycles)
+[2026-05-11 01:02:17] [INFO] 📊 GRID SETUP: LINK/USD
+Range: $10.10 - $11.16
+Levels: 10 | Spacing: $0.11 (1.00%)
+Order size: 4.397930 (~$46.76)
+Investment: $233.75
+[2026-05-11 02:30:43] [INFO] 🛑 GRID SHUTDOWN: AVAX/USD
+Cancelled 2 orders
+Total profit: $79.51 (299 cycles)
+[2026-05-11 02:30:43] [INFO] 🛑 GRID SHUTDOWN: AVAX/USD
+Cancelled 0 orders
+Total profit: $79.51 (299 cycles)
+[2026-05-11 02:30:43] [INFO] 📊 GRID SETUP: AVAX/USD
+Range: $9.57 - $10.58
+Levels: 10 | Spacing: $0.10 (1.00%)
+Order size: 3.712159 (~$37.40)
+Investment: $187.00
+[2026-05-11 08:04:33] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-11 08:04:33] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $54.53 (164 cycles)
+[2026-05-12 02:39:28] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 02:39:29] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $54.86 (165 cycles)
+[2026-05-12 02:59:28] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 02:59:29] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $55.19 (166 cycles)
+[2026-05-12 03:05:49] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 03:05:49] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $55.51 (167 cycles)
+[2026-05-12 05:09:00] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 05:09:01] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $55.84 (168 cycles)
+[2026-05-12 07:03:55] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 07:09:10] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $56.17 (169 cycles)
+[2026-05-12 08:32:28] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 08:35:37] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $56.50 (170 cycles)
+[2026-05-12 09:06:07] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 09:08:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $56.83 (171 cycles)
+[2026-05-12 09:14:32] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 09:16:39] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 09:16:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 09:16:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $79.78 (300 cycles)
+[2026-05-12 09:17:44] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $57.16 (172 cycles)
+[2026-05-12 09:18:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 09:18:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $80.04 (301 cycles)
+[2026-05-12 09:20:55] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 09:23:01] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $57.49 (173 cycles)
+[2026-05-12 09:27:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 09:27:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $80.31 (302 cycles)
+[2026-05-12 10:50:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 10:51:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $80.57 (303 cycles)
+[2026-05-12 10:55:08] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 10:57:13] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $57.82 (174 cycles)
+[2026-05-12 10:57:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $58.15 (175 cycles)
+[2026-05-12 10:58:18] [TRADE] 🟢 GRID BUY LINK/USD @ $10.31
+Sell queued @ $10.42
+[2026-05-12 11:08:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 11:11:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $80.84 (304 cycles)
+[2026-05-12 11:19:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 11:20:16] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 11:34:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $81.10 (305 cycles)
+[2026-05-12 11:43:15] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $58.48 (176 cycles)
+[2026-05-12 11:43:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 11:51:40] [INFO] 🛑 GRID SHUTDOWN: SOL/USD
+Cancelled 4 orders
+Total profit: $46.41 (118 cycles)
+[2026-05-12 11:51:40] [INFO] 🛑 GRID SHUTDOWN: SOL/USD
+Cancelled 0 orders
+Total profit: $46.41 (118 cycles)
+[2026-05-12 11:51:40] [INFO] 📊 GRID SETUP: SOL/USD
+Range: $90.34 - $99.84
+Levels: 10 | Spacing: $0.95 (1.00%)
+Order size: 0.589967 (~$56.10)
+Investment: $280.50
+[2026-05-12 12:03:16] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 12:12:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $81.37 (306 cycles)
+[2026-05-12 12:13:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 12:15:50] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $58.81 (177 cycles)
+[2026-05-12 12:16:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $81.63 (307 cycles)
+[2026-05-12 12:26:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 12:28:28] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $81.90 (308 cycles)
+[2026-05-12 12:37:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 12:37:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $82.16 (309 cycles)
+[2026-05-12 13:22:00] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 13:22:00] [TRADE] ✅ GRID SELL LINK/USD @ $10.42
+Cycle profit: $0.33 | Total: $59.14 (178 cycles)
+[2026-05-12 13:24:06] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $59.47 (179 cycles)
+[2026-05-12 13:27:17] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 13:28:20] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $59.80 (180 cycles)
+[2026-05-12 13:31:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 13:32:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $82.43 (310 cycles)
+[2026-05-12 13:36:46] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 13:39:56] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $60.13 (181 cycles)
+[2026-05-12 13:48:21] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 13:49:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 13:50:28] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $60.46 (182 cycles)
+[2026-05-12 13:50:29] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $82.69 (311 cycles)
+[2026-05-12 13:53:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 13:59:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $82.96 (312 cycles)
+[2026-05-12 14:00:59] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 14:01:00] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $46.80 (119 cycles)
+[2026-05-12 14:01:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 14:10:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $83.22 (313 cycles)
+[2026-05-12 14:11:36] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 14:13:41] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $60.79 (183 cycles)
+[2026-05-12 14:18:56] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 14:26:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 14:29:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $83.49 (314 cycles)
+[2026-05-12 14:30:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 14:31:35] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 14:31:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $83.75 (315 cycles)
+[2026-05-12 14:31:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $84.02 (316 cycles)
+[2026-05-12 14:32:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 14:36:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $84.28 (317 cycles)
+[2026-05-12 14:37:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 14:37:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $84.55 (318 cycles)
+[2026-05-12 14:37:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 14:48:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $84.82 (319 cycles)
+[2026-05-12 14:49:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 14:49:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $85.08 (320 cycles)
+[2026-05-12 14:49:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 15:01:01] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 15:01:02] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $47.20 (120 cycles)
+[2026-05-12 15:01:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 15:01:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $85.35 (321 cycles)
+[2026-05-12 15:24:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 15:24:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $85.62 (322 cycles)
+[2026-05-12 15:25:09] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 15:28:19] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $47.59 (121 cycles)
+[2026-05-12 15:29:24] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 15:32:34] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $47.99 (122 cycles)
+[2026-05-12 15:32:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 15:32:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $85.88 (323 cycles)
+[2026-05-12 15:33:38] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 15:34:41] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $48.38 (123 cycles)
+[2026-05-12 16:00:44] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 16:01:47] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $48.77 (124 cycles)
+[2026-05-12 16:30:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-12 16:30:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $86.15 (324 cycles)
+[2026-05-12 16:33:10] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-12 16:37:21] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $49.17 (125 cycles)
+[2026-05-12 17:17:05] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $61.12 (184 cycles)
+[2026-05-12 17:24:27] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 17:37:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $86.41 (325 cycles)
+[2026-05-12 17:41:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 17:44:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $86.68 (326 cycles)
+[2026-05-12 17:49:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 18:01:57] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $61.45 (185 cycles)
+[2026-05-12 18:05:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $86.94 (327 cycles)
+[2026-05-12 18:09:19] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 18:14:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 18:28:05] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $61.78 (186 cycles)
+[2026-05-12 18:30:13] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 18:30:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $87.21 (328 cycles)
+[2026-05-12 18:31:17] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $62.11 (187 cycles)
+[2026-05-12 18:33:22] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 18:43:48] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $62.44 (188 cycles)
+[2026-05-12 18:44:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 18:54:16] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $62.77 (189 cycles)
+[2026-05-12 19:40:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 19:41:08] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $87.47 (329 cycles)
+[2026-05-12 19:46:20] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 19:48:25] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $63.10 (190 cycles)
+[2026-05-12 19:55:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 19:59:53] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 19:59:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $87.74 (330 cycles)
+[2026-05-12 20:00:58] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $63.43 (191 cycles)
+[2026-05-12 21:00:22] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 21:01:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $88.00 (331 cycles)
+[2026-05-12 22:02:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 22:02:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $88.27 (332 cycles)
+[2026-05-12 22:09:06] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-12 22:09:07] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $63.76 (192 cycles)
+[2026-05-12 22:09:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 22:09:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $88.53 (333 cycles)
+[2026-05-12 23:28:07] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-12 23:33:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $88.80 (334 cycles)
+[2026-05-12 23:49:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 00:02:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $89.06 (335 cycles)
+[2026-05-13 00:05:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 00:19:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $89.33 (336 cycles)
+[2026-05-13 00:32:46] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 00:34:52] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $64.09 (193 cycles)
+[2026-05-13 00:44:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 00:46:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $89.59 (337 cycles)
+[2026-05-13 00:57:48] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 00:57:50] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $64.42 (194 cycles)
+[2026-05-13 01:14:31] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-13 01:14:33] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $49.56 (126 cycles)
+[2026-05-13 02:29:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 02:29:53] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $64.75 (195 cycles)
+[2026-05-13 12:31:13] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-13 12:33:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 12:34:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $89.86 (338 cycles)
+[2026-05-13 12:37:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 12:39:41] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 12:42:49] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $65.08 (196 cycles)
+[2026-05-13 12:47:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $90.12 (339 cycles)
+[2026-05-13 13:23:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 13:23:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $90.39 (340 cycles)
+[2026-05-13 13:27:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 13:30:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $90.65 (341 cycles)
+[2026-05-13 13:46:34] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 13:46:35] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $49.96 (127 cycles)
+[2026-05-13 13:47:41] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 13:48:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 13:57:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 13:57:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $90.92 (342 cycles)
+[2026-05-13 13:58:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 13:58:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $91.19 (343 cycles)
+[2026-05-13 13:59:19] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 13:59:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 13:59:24] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $91.45 (344 cycles)
+[2026-05-13 14:00:26] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $50.35 (128 cycles)
+[2026-05-13 14:02:34] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 14:14:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $91.72 (345 cycles)
+[2026-05-13 14:23:31] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $50.75 (129 cycles)
+[2026-05-13 14:36:06] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 14:43:23] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $51.15 (130 cycles)
+[2026-05-13 14:55:54] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 15:02:12] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $51.55 (131 cycles)
+[2026-05-13 15:07:26] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 15:08:30] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $65.41 (197 cycles)
+[2026-05-13 15:09:33] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 15:11:38] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 15:49:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 15:49:28] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $91.99 (346 cycles)
+[2026-05-13 15:57:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 15:58:52] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $51.94 (132 cycles)
+[2026-05-13 15:59:57] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 16:01:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $92.25 (347 cycles)
+[2026-05-13 16:11:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 16:13:37] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $65.74 (198 cycles)
+[2026-05-13 16:14:40] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 16:15:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $92.52 (348 cycles)
+[2026-05-13 16:15:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $92.79 (349 cycles)
+[2026-05-13 16:16:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 17:15:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 17:15:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $93.05 (350 cycles)
+[2026-05-13 17:26:27] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $52.34 (133 cycles)
+[2026-05-13 17:27:30] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 17:52:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $93.32 (351 cycles)
+[2026-05-13 17:53:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 18:01:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $93.58 (352 cycles)
+[2026-05-13 18:02:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 18:05:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 18:05:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $93.85 (353 cycles)
+[2026-05-13 18:20:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $94.11 (354 cycles)
+[2026-05-13 18:28:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 19:05:17] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $66.07 (199 cycles)
+[2026-05-13 19:06:21] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 19:17:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 19:17:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $94.38 (355 cycles)
+[2026-05-13 19:39:35] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $66.40 (200 cycles)
+[2026-05-13 19:40:38] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 20:26:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $94.65 (356 cycles)
+[2026-05-13 20:27:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 20:28:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 20:28:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $94.91 (357 cycles)
+[2026-05-13 20:28:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $95.18 (358 cycles)
+[2026-05-13 20:31:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 20:36:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $95.44 (359 cycles)
+[2026-05-13 20:41:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 20:42:53] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 20:43:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $95.71 (360 cycles)
+[2026-05-13 20:47:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $95.97 (361 cycles)
+[2026-05-13 20:48:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 21:03:43] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $96.24 (362 cycles)
+[2026-05-13 21:04:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 21:07:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 21:07:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $96.51 (363 cycles)
+[2026-05-13 21:13:07] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $66.73 (201 cycles)
+[2026-05-13 21:14:10] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-13 21:26:36] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $52.74 (134 cycles)
+[2026-05-13 21:27:39] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-13 21:44:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $96.77 (364 cycles)
+[2026-05-13 21:45:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 21:45:22] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $97.03 (365 cycles)
+[2026-05-13 21:46:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 21:52:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $97.30 (366 cycles)
+[2026-05-13 21:53:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 21:58:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 21:58:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $97.57 (367 cycles)
+[2026-05-13 22:17:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $97.83 (368 cycles)
+[2026-05-13 22:18:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-13 22:18:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $98.10 (369 cycles)
+[2026-05-13 22:18:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 23:00:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $98.36 (370 cycles)
+[2026-05-13 23:01:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-13 23:09:41] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $67.06 (202 cycles)
+[2026-05-13 23:12:48] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 00:01:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 00:01:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $98.63 (371 cycles)
+[2026-05-14 00:05:45] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $67.39 (203 cycles)
+[2026-05-14 00:15:05] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 00:15:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $98.89 (372 cycles)
+[2026-05-14 00:18:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 00:19:15] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $53.13 (135 cycles)
+[2026-05-14 00:20:18] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 00:28:36] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $53.53 (136 cycles)
+[2026-05-14 00:29:39] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 00:44:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $67.72 (204 cycles)
+[2026-05-14 00:44:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $99.16 (373 cycles)
+[2026-05-14 01:05:01] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 01:06:05] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $68.05 (205 cycles)
+[2026-05-14 01:08:10] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 01:08:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $99.43 (374 cycles)
+[2026-05-14 01:08:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 01:17:32] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 01:32:03] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $53.93 (137 cycles)
+[2026-05-14 01:33:07] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 01:41:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $99.69 (375 cycles)
+[2026-05-14 01:52:58] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $68.38 (206 cycles)
+[2026-05-14 02:00:14] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $54.33 (138 cycles)
+[2026-05-14 02:01:17] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 02:02:23] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 02:26:17] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 02:31:26] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $54.72 (139 cycles)
+[2026-05-14 02:32:29] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 02:32:31] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $68.71 (207 cycles)
+[2026-05-14 02:43:53] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $55.12 (140 cycles)
+[2026-05-14 02:43:55] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 02:44:56] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 02:47:01] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $55.52 (141 cycles)
+[2026-05-14 02:48:04] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 02:55:22] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $99.96 (376 cycles)
+[2026-05-14 02:56:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 02:59:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 02:59:34] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $100.22 (377 cycles)
+[2026-05-14 03:01:40] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $69.04 (208 cycles)
+[2026-05-14 03:02:43] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 03:26:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $100.49 (378 cycles)
+[2026-05-14 03:27:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 03:35:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 03:35:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $100.75 (379 cycles)
+[2026-05-14 03:37:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 03:37:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $101.02 (380 cycles)
+[2026-05-14 04:01:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 04:08:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $101.29 (381 cycles)
+[2026-05-14 04:21:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 04:21:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $101.56 (382 cycles)
+[2026-05-14 04:31:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 04:31:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $101.82 (383 cycles)
+[2026-05-14 04:33:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $102.09 (384 cycles)
+[2026-05-14 04:34:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 04:42:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $102.35 (385 cycles)
+[2026-05-14 04:43:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 04:46:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 04:46:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $102.62 (386 cycles)
+[2026-05-14 04:47:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $102.89 (387 cycles)
+[2026-05-14 04:49:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 05:11:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 05:11:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $103.15 (388 cycles)
+[2026-05-14 05:16:03] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $69.37 (209 cycles)
+[2026-05-14 05:17:06] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 05:26:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $103.42 (389 cycles)
+[2026-05-14 05:27:30] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $69.70 (210 cycles)
+[2026-05-14 05:27:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 05:28:35] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 05:44:09] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $70.03 (211 cycles)
+[2026-05-14 05:44:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $103.68 (390 cycles)
+[2026-05-14 05:45:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 05:50:28] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $103.95 (391 cycles)
+[2026-05-14 05:51:33] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 05:52:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $104.21 (392 cycles)
+[2026-05-14 05:55:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 06:02:14] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 06:06:30] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $70.36 (212 cycles)
+[2026-05-14 06:14:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 06:14:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $104.48 (393 cycles)
+[2026-05-14 06:15:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $104.74 (394 cycles)
+[2026-05-14 06:16:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 06:21:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $105.01 (395 cycles)
+[2026-05-14 06:22:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 06:27:22] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $105.27 (396 cycles)
+[2026-05-14 06:28:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 06:38:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $105.54 (397 cycles)
+[2026-05-14 06:39:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 06:53:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $105.80 (398 cycles)
+[2026-05-14 06:56:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 07:01:40] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 07:02:43] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $70.69 (213 cycles)
+[2026-05-14 07:04:47] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 07:05:49] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $55.92 (142 cycles)
+[2026-05-14 07:06:52] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 07:12:03] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $56.31 (143 cycles)
+[2026-05-14 07:13:06] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 07:13:08] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $71.02 (214 cycles)
+[2026-05-14 07:15:14] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 07:17:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $106.07 (399 cycles)
+[2026-05-14 07:18:23] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 07:20:26] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $56.71 (144 cycles)
+[2026-05-14 07:21:29] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 07:21:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 07:21:32] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $106.34 (400 cycles)
+[2026-05-14 07:47:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 07:47:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $106.60 (401 cycles)
+[2026-05-14 08:01:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 08:01:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $106.87 (402 cycles)
+[2026-05-14 08:11:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $107.13 (403 cycles)
+[2026-05-14 08:12:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 08:13:27] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 08:13:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $107.40 (404 cycles)
+[2026-05-14 08:15:32] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 08:15:33] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $107.67 (405 cycles)
+[2026-05-14 09:04:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 09:05:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $107.94 (406 cycles)
+[2026-05-14 09:32:17] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $71.35 (215 cycles)
+[2026-05-14 09:33:20] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 09:47:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $108.20 (407 cycles)
+[2026-05-14 09:48:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 09:53:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 10:00:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $108.47 (408 cycles)
+[2026-05-14 10:14:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 10:16:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $108.74 (409 cycles)
+[2026-05-14 10:18:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $109.00 (410 cycles)
+[2026-05-14 10:19:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 10:46:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 10:48:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $109.27 (411 cycles)
+[2026-05-14 11:01:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 11:01:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $109.53 (412 cycles)
+[2026-05-14 11:06:49] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $109.80 (413 cycles)
+[2026-05-14 11:07:52] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 11:18:12] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $57.11 (145 cycles)
+[2026-05-14 11:18:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $71.68 (216 cycles)
+[2026-05-14 11:19:15] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 11:26:34] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 11:26:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $110.06 (414 cycles)
+[2026-05-14 11:27:37] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $72.01 (217 cycles)
+[2026-05-14 11:27:38] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 11:27:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 11:33:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 11:33:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $110.33 (415 cycles)
+[2026-05-14 11:56:42] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $72.34 (218 cycles)
+[2026-05-14 11:57:45] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 11:57:46] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 12:00:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $110.60 (416 cycles)
+[2026-05-14 12:07:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 12:11:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $110.87 (417 cycles)
+[2026-05-14 12:17:32] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $72.67 (219 cycles)
+[2026-05-14 12:17:34] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $111.13 (418 cycles)
+[2026-05-14 12:18:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 12:20:41] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 12:21:43] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $73.00 (220 cycles)
+[2026-05-14 12:21:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 12:21:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $111.40 (419 cycles)
+[2026-05-14 12:21:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $111.66 (420 cycles)
+[2026-05-14 12:22:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 12:28:00] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 12:51:53] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $73.33 (221 cycles)
+[2026-05-14 12:58:08] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 12:59:11] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $73.66 (222 cycles)
+[2026-05-14 13:24:11] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 13:24:11] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $73.99 (223 cycles)
+[2026-05-14 13:24:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $111.93 (421 cycles)
+[2026-05-14 13:30:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 13:48:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $112.19 (422 cycles)
+[2026-05-14 13:53:19] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-14 14:00:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 14:15:19] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-14 14:15:20] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $112.46 (423 cycles)
+[2026-05-14 14:18:27] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $74.32 (224 cycles)
+[2026-05-14 14:20:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $112.72 (424 cycles)
+[2026-05-14 14:27:52] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $57.50 (146 cycles)
+[2026-05-14 14:28:57] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 14:44:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 14:44:41] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $112.99 (425 cycles)
+[2026-05-14 14:55:06] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $57.90 (147 cycles)
+[2026-05-14 14:59:20] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 15:00:23] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $58.30 (148 cycles)
+[2026-05-14 15:01:29] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 15:01:29] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $58.70 (149 cycles)
+[2026-05-14 15:02:32] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $59.09 (150 cycles)
+[2026-05-14 15:03:36] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-14 16:59:46] [INFO] 🛑 GRID SHUTDOWN: ETH/USD
+Cancelled 3 orders
+Total profit: $1.65 (5 cycles)
+[2026-05-14 16:59:46] [INFO] 🛑 GRID SHUTDOWN: ETH/USD
+Cancelled 0 orders
+Total profit: $1.65 (5 cycles)
+[2026-05-14 16:59:46] [INFO] 📊 GRID SETUP: ETH/USD
+Range: $2,200.07 - $2,431.65
+Levels: 10 | Spacing: $23.16 (1.00%)
+Order size: 0.020187 (~$46.75)
+Investment: $233.75
+[2026-05-14 17:28:18] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 17:28:19] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $59.49 (151 cycles)
+[2026-05-14 18:41:42] [TRADE] ✅ GRID SELL SOL/USD @ $94.14
+Cycle profit: $0.39 | Total: $59.88 (152 cycles)
+[2026-05-14 18:42:45] [TRADE] 🟢 GRID BUY SOL/USD @ $93.19
+Sell queued @ $94.14
+[2026-05-14 18:46:55] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 18:46:56] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $60.28 (153 cycles)
+[2026-05-14 20:14:41] [TRADE] 🟢 GRID BUY ETH/USD @ $2,292.70
+Sell queued @ $2,315.86
+[2026-05-14 20:54:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 20:54:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $113.25 (426 cycles)
+[2026-05-14 22:51:16] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 22:51:17] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $60.67 (154 cycles)
+[2026-05-14 23:00:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 23:00:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $113.52 (427 cycles)
+[2026-05-14 23:09:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 23:09:07] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $113.78 (428 cycles)
+[2026-05-14 23:23:44] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-14 23:23:45] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $61.07 (155 cycles)
+[2026-05-14 23:47:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-14 23:47:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $114.05 (429 cycles)
+[2026-05-15 00:12:52] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 00:12:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $114.31 (430 cycles)
+[2026-05-15 00:17:02] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 00:17:03] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $61.47 (156 cycles)
+[2026-05-15 00:22:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 00:22:22] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $114.58 (431 cycles)
+[2026-05-15 01:07:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 01:07:17] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $114.84 (432 cycles)
+[2026-05-15 01:33:22] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 01:37:34] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $61.86 (157 cycles)
+[2026-05-15 01:40:42] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 01:42:51] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 01:42:52] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $115.10 (433 cycles)
+[2026-05-15 01:59:33] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $62.26 (158 cycles)
+[2026-05-15 02:06:57] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 02:07:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 02:08:04] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $115.37 (434 cycles)
+[2026-05-15 02:11:14] [TRADE] 🟢 GRID BUY ETH/USD @ $2,269.54
+Sell queued @ $2,292.70
+[2026-05-15 02:13:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 02:25:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $115.63 (435 cycles)
+[2026-05-15 02:29:14] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $62.66 (159 cycles)
+[2026-05-15 02:32:23] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 02:33:29] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 02:33:30] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $74.65 (225 cycles)
+[2026-05-15 02:36:40] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 02:36:41] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $74.98 (226 cycles)
+[2026-05-15 02:45:02] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $63.06 (160 cycles)
+[2026-05-15 02:49:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 02:50:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $115.90 (436 cycles)
+[2026-05-15 03:06:05] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 03:07:08] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $63.45 (161 cycles)
+[2026-05-15 03:07:13] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 03:07:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.26 | Total: $116.16 (437 cycles)
+[2026-05-15 03:58:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:00:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $116.43 (438 cycles)
+[2026-05-15 04:04:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:05:50] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $116.69 (439 cycles)
+[2026-05-15 04:13:08] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:14:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $116.96 (440 cycles)
+[2026-05-15 04:19:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:24:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $117.22 (441 cycles)
+[2026-05-15 04:29:52] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:34:02] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 04:36:10] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $117.49 (442 cycles)
+[2026-05-15 04:40:18] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $63.85 (162 cycles)
+[2026-05-15 04:41:26] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:42:29] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $117.75 (443 cycles)
+[2026-05-15 04:45:38] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 04:45:39] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $75.31 (227 cycles)
+[2026-05-15 04:52:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 04:55:03] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 04:55:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $118.02 (444 cycles)
+[2026-05-15 04:58:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 05:09:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $118.28 (445 cycles)
+[2026-05-15 05:11:53] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 05:32:46] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $118.55 (446 cycles)
+[2026-05-15 05:33:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 05:34:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 05:35:56] [TRADE] 🟢 GRID BUY ETH/USD @ $2,246.39
+Sell queued @ $2,269.54
+[2026-05-15 05:35:58] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $75.64 (228 cycles)
+[2026-05-15 05:37:02] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 05:38:06] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $75.97 (229 cycles)
+[2026-05-15 05:39:10] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 05:40:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 05:40:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $118.82 (447 cycles)
+[2026-05-15 05:54:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $119.08 (448 cycles)
+[2026-05-15 05:56:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 06:00:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 06:00:19] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $119.35 (449 cycles)
+[2026-05-15 06:11:00] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $119.61 (450 cycles)
+[2026-05-15 06:12:03] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 06:16:13] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $76.30 (230 cycles)
+[2026-05-15 06:16:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 06:16:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $119.88 (451 cycles)
+[2026-05-15 06:20:27] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 06:27:47] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $76.63 (231 cycles)
+[2026-05-15 06:30:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $120.15 (452 cycles)
+[2026-05-15 06:31:59] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 06:42:24] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 06:43:27] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $76.96 (232 cycles)
+[2026-05-15 06:46:35] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $120.41 (453 cycles)
+[2026-05-15 06:47:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 07:01:14] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 07:01:14] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $120.68 (454 cycles)
+[2026-05-15 07:02:17] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 07:03:20] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $77.29 (233 cycles)
+[2026-05-15 07:11:47] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 07:11:48] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $120.94 (455 cycles)
+[2026-05-15 07:12:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 07:12:53] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $77.62 (234 cycles)
+[2026-05-15 07:21:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 07:21:16] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $121.21 (456 cycles)
+[2026-05-15 07:23:22] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 07:23:23] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $77.95 (235 cycles)
+[2026-05-15 07:26:32] [TRADE] ✅ GRID SELL ETH/USD @ $2,269.54
+Cycle profit: $0.33 | Total: $1.98 (6 cycles)
+[2026-05-15 07:26:34] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $121.47 (457 cycles)
+[2026-05-15 07:29:45] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 07:40:14] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 07:40:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $78.28 (236 cycles)
+[2026-05-15 07:49:39] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $64.25 (163 cycles)
+[2026-05-15 07:50:42] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 08:13:41] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 08:13:42] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $121.74 (458 cycles)
+[2026-05-15 08:16:50] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 08:16:50] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $78.61 (237 cycles)
+[2026-05-15 08:17:53] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 08:17:54] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $78.94 (238 cycles)
+[2026-05-15 08:18:58] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 08:18:59] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $79.27 (239 cycles)
+[2026-05-15 08:30:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 08:30:29] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $122.01 (459 cycles)
+[2026-05-15 08:37:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 08:37:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $122.27 (460 cycles)
+[2026-05-15 08:37:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $122.54 (461 cycles)
+[2026-05-15 08:40:02] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 08:46:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $122.80 (462 cycles)
+[2026-05-15 08:49:28] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 08:50:30] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $64.64 (164 cycles)
+[2026-05-15 08:50:32] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $79.60 (240 cycles)
+[2026-05-15 08:51:34] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 08:51:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 09:14:41] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 09:15:44] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $79.93 (241 cycles)
+[2026-05-15 09:18:52] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 09:22:00] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $80.26 (242 cycles)
+[2026-05-15 09:41:50] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 09:42:54] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $80.59 (243 cycles)
+[2026-05-15 09:42:55] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 09:42:56] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $123.07 (463 cycles)
+[2026-05-15 09:43:59] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 09:45:02] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $80.92 (244 cycles)
+[2026-05-15 09:51:19] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 09:54:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $123.33 (464 cycles)
+[2026-05-15 09:55:30] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $81.25 (245 cycles)
+[2026-05-15 09:55:31] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 09:59:44] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 09:59:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $123.60 (465 cycles)
+[2026-05-15 10:17:38] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 10:17:39] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $123.87 (466 cycles)
+[2026-05-15 10:25:59] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 10:28:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 10:28:05] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $124.13 (467 cycles)
+[2026-05-15 10:32:15] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $81.58 (246 cycles)
+[2026-05-15 10:37:29] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $124.40 (468 cycles)
+[2026-05-15 10:40:37] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 10:45:48] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $65.04 (165 cycles)
+[2026-05-15 10:45:50] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 10:46:52] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 10:46:54] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $81.91 (247 cycles)
+[2026-05-15 10:47:58] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 10:47:59] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $124.66 (469 cycles)
+[2026-05-15 11:00:31] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $124.93 (470 cycles)
+[2026-05-15 11:04:43] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 11:10:40] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $65.44 (166 cycles)
+[2026-05-15 11:12:47] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 11:28:27] [TRADE] ✅ GRID SELL SOL/USD @ $92.24
+Cycle profit: $0.40 | Total: $65.84 (167 cycles)
+[2026-05-15 11:29:30] [TRADE] 🟢 GRID BUY SOL/USD @ $91.29
+Sell queued @ $92.24
+[2026-05-15 11:34:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $125.19 (471 cycles)
+[2026-05-15 11:37:28] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 11:40:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $125.46 (472 cycles)
+[2026-05-15 11:45:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 12:05:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 12:05:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $125.73 (473 cycles)
+[2026-05-15 12:31:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 12:31:43] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $125.99 (474 cycles)
+[2026-05-15 12:32:46] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 12:55:29] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $82.24 (248 cycles)
+[2026-05-15 13:01:51] [TRADE] 🟢 GRID BUY ETH/USD @ $2,246.39
+Sell queued @ $2,269.54
+[2026-05-15 13:02:55] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 13:10:14] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $82.57 (249 cycles)
+[2026-05-15 13:13:24] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 13:13:25] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 13:13:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $126.26 (475 cycles)
+[2026-05-15 13:26:00] [TRADE] ✅ GRID SELL LINK/USD @ $10.31
+Cycle profit: $0.33 | Total: $82.90 (250 cycles)
+[2026-05-15 13:26:01] [TRADE] ✅ GRID SELL AVAX/USD @ $9.87
+Cycle profit: $0.27 | Total: $126.53 (476 cycles)
+[2026-05-15 13:27:04] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.77
+Sell queued @ $9.87
+[2026-05-15 13:29:10] [TRADE] 🟢 GRID BUY LINK/USD @ $10.21
+Sell queued @ $10.31
+[2026-05-15 13:29:11] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 13:29:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $126.79 (477 cycles)
+[2026-05-15 13:31:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 13:36:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $127.06 (478 cycles)
+[2026-05-15 13:42:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 13:45:12] [TRADE] 🟢 GRID BUY ETH/USD @ $2,223.23
+Sell queued @ $2,246.39
+[2026-05-15 16:53:44] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $127.33 (479 cycles)
+[2026-05-15 16:54:49] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 17:03:11] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $127.59 (480 cycles)
+[2026-05-15 17:05:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 17:30:23] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $127.86 (481 cycles)
+[2026-05-15 17:33:36] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 17:40:55] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $128.13 (482 cycles)
+[2026-05-15 17:43:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 18:03:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $128.40 (483 cycles)
+[2026-05-15 18:10:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 18:11:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $128.66 (484 cycles)
+[2026-05-15 18:12:20] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 18:15:28] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $128.93 (485 cycles)
+[2026-05-15 18:17:34] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 19:10:57] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $129.20 (486 cycles)
+[2026-05-15 19:12:00] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 20:13:11] [TRADE] 🟢 GRID BUY ETH/USD @ $2,200.07
+Sell queued @ $2,223.23
+[2026-05-15 20:13:11] [TRADE] ✅ GRID SELL ETH/USD @ $2,246.39
+Cycle profit: $0.33 | Total: $2.31 (7 cycles)
+[2026-05-15 20:13:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $129.46 (487 cycles)
+[2026-05-15 20:14:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 20:15:18] [TRADE] ✅ GRID SELL ETH/USD @ $2,223.23
+Cycle profit: $0.33 | Total: $2.64 (8 cycles)
+[2026-05-15 21:05:13] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $129.73 (488 cycles)
+[2026-05-15 21:06:16] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-15 21:22:54] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $130.00 (489 cycles)
+[2026-05-15 21:23:57] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 01:30:15] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $130.27 (490 cycles)
+[2026-05-16 01:31:18] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 02:26:25] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $130.53 (491 cycles)
+[2026-05-16 02:27:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 04:16:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $130.80 (492 cycles)
+[2026-05-16 04:17:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 04:21:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $131.07 (493 cycles)
+[2026-05-16 04:22:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 04:25:12] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $131.34 (494 cycles)
+[2026-05-16 04:26:15] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 04:28:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $131.60 (495 cycles)
+[2026-05-16 04:29:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 04:30:27] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $131.87 (496 cycles)
+[2026-05-16 04:31:30] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-16 07:14:00] [TRADE] 🟢 GRID BUY ETH/USD @ $2,200.07
+Sell queued @ $2,223.23
+[2026-05-21 19:51:21] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $132.14 (497 cycles)
+[2026-05-21 19:52:24] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:02:47] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $132.40 (498 cycles)
+[2026-05-21 20:03:50] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:04:53] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $132.67 (499 cycles)
+[2026-05-21 20:05:56] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:09:03] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $132.94 (500 cycles)
+[2026-05-21 20:10:06] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:15:18] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $133.21 (501 cycles)
+[2026-05-21 20:16:21] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:29:51] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $133.47 (502 cycles)
+[2026-05-21 20:30:54] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:36:06] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $133.74 (503 cycles)
+[2026-05-21 20:37:09] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 20:53:45] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $134.01 (504 cycles)
+[2026-05-21 20:54:48] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 21:01:02] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $134.27 (505 cycles)
+[2026-05-21 21:02:05] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 21:11:26] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $134.54 (506 cycles)
+[2026-05-21 21:12:29] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 21:16:38] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $134.81 (507 cycles)
+[2026-05-21 21:17:42] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 21:30:09] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $135.08 (508 cycles)
+[2026-05-21 21:31:12] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 21:41:36] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $135.34 (509 cycles)
+[2026-05-21 21:42:39] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 22:18:58] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $135.61 (510 cycles)
+[2026-05-21 22:20:01] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67
+[2026-05-21 22:36:37] [TRADE] ✅ GRID SELL AVAX/USD @ $9.67
+Cycle profit: $0.27 | Total: $135.88 (511 cycles)
+[2026-05-21 22:37:40] [TRADE] 🟢 GRID BUY AVAX/USD @ $9.57
+Sell queued @ $9.67

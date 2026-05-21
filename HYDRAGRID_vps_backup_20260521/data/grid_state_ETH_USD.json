@@ -1,0 +1,93 @@
+{
+  "config": {
+    "symbol": "ETH/USD",
+    "lower_price": 2200.07,
+    "upper_price": 2431.65,
+    "num_grids": 10,
+    "total_investment": 233.75
+  },
+  "order_size_qty": 0.020187,
+  "completed_trades": 8,
+  "total_profit": 2.6417270556899988,
+  "active": true,
+  "levels": [
+    {
+      "price": 2200.07,
+      "index": 0,
+      "order_id": null,
+      "order_side": "buy",
+      "status": "empty"
+    },
+    {
+      "price": 2223.23,
+      "index": 1,
+      "order_id": "6dc88b52-adae-4138-b771-e1729b2296f9",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 2246.39,
+      "index": 2,
+      "order_id": null,
+      "order_side": "sell",
+      "status": "empty"
+    },
+    {
+      "price": 2269.54,
+      "index": 3,
+      "order_id": "18b0a663-ec58-4a18-b0a8-aa0d9ab05ed4",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 2292.7,
+      "index": 4,
+      "order_id": "493d7fc3-e30f-4999-a8bd-381ab07fd313",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 2315.86,
+      "index": 5,
+      "order_id": "db533133-9b39-41c8-94be-5fd6ff7c6bad",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 2339.02,
+      "index": 6,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 2362.18,
+      "index": 7,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 2385.33,
+      "index": 8,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 2408.49,
+      "index": 9,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 2431.65,
+      "index": 10,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    }
+  ],
+  "last_update": "2026-05-16T07:14:02.227978"
+}

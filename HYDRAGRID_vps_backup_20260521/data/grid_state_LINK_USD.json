@@ -1,0 +1,93 @@
+{
+  "config": {
+    "symbol": "LINK/USD",
+    "lower_price": 10.1,
+    "upper_price": 11.16,
+    "num_grids": 10,
+    "total_investment": 233.75
+  },
+  "order_size_qty": 4.39793,
+  "completed_trades": 250,
+  "total_profit": 82.90253686950429,
+  "active": true,
+  "levels": [
+    {
+      "price": 10.1,
+      "index": 0,
+      "order_id": null,
+      "order_side": "buy",
+      "status": "empty"
+    },
+    {
+      "price": 10.21,
+      "index": 1,
+      "order_id": null,
+      "order_side": "buy",
+      "status": "empty"
+    },
+    {
+      "price": 10.31,
+      "index": 2,
+      "order_id": "954807e5-3c7a-4cc9-86ad-d8554a2c45ea",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 10.42,
+      "index": 3,
+      "order_id": null,
+      "order_side": "sell",
+      "status": "empty"
+    },
+    {
+      "price": 10.52,
+      "index": 4,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.63,
+      "index": 5,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.74,
+      "index": 6,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.84,
+      "index": 7,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.95,
+      "index": 8,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 11.05,
+      "index": 9,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 11.16,
+      "index": 10,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    }
+  ],
+  "last_update": "2026-05-15T13:29:11.399872"
+}

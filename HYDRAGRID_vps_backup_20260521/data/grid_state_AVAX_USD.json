@@ -1,0 +1,93 @@
+{
+  "config": {
+    "symbol": "AVAX/USD",
+    "lower_price": 9.57,
+    "upper_price": 10.58,
+    "num_grids": 10,
+    "total_investment": 187.0
+  },
+  "order_size_qty": 3.712159,
+  "completed_trades": 511,
+  "total_profit": 135.87816278315864,
+  "active": true,
+  "levels": [
+    {
+      "price": 9.57,
+      "index": 0,
+      "order_id": null,
+      "order_side": "buy",
+      "status": "empty"
+    },
+    {
+      "price": 9.67,
+      "index": 1,
+      "order_id": "957e7bc6-9365-48a3-ae19-68dd2011ae22",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 9.77,
+      "index": 2,
+      "order_id": null,
+      "order_side": "buy",
+      "status": "empty"
+    },
+    {
+      "price": 9.87,
+      "index": 3,
+      "order_id": "fae913be-ab34-4d7d-ab48-d13762984215",
+      "order_side": "sell",
+      "status": "pending"
+    },
+    {
+      "price": 9.97,
+      "index": 4,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.07,
+      "index": 5,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.18,
+      "index": 6,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.28,
+      "index": 7,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.38,
+      "index": 8,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.48,
+      "index": 9,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    },
+    {
+      "price": 10.58,
+      "index": 10,
+      "order_id": null,
+      "order_side": null,
+      "status": "empty"
+    }
+  ],
+  "last_update": "2026-05-21T22:37:41.533916"
+}
