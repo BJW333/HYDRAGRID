@@ -1,0 +1,37 @@
+# ---- OS / editor junk ----
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Python ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- secrets / local env (never commit) ----
+.env
+*.env
+secrets.*
+*credentials*
+
+# ---- live runtime state (machine-specific, must be generated fresh) ----
+grid_state_*.json
+**/grid_state_*.json
+hydraflow_state.json
+*.log
+alerts.log
+
+# ---- market data (regenerate with download_data.py / download_data_5yr.py) ----
+data/historical/
+data/historical_5yr/
+*.csv
+
+# ---- generated plots ----
+*.png
